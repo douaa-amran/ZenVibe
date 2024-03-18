@@ -17,6 +17,7 @@ export const fetchUsers = createAsyncThunk(
           'X-RapidAPI-Host': 'ai-random-user-generator.p.rapidapi.com'
         }
       };
+      
       try {
             const response = await axios.request(options);
             return response.data.results;
