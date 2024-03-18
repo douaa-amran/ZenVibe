@@ -1,0 +1,109 @@
+
+.footer {
+    border-radius: 51% 49% 25% 25% / 27% 29% 0% 0%;
+}
+
+#root > div > div > footer > div > hr{
+    width: 90% !important;
+    border-color: #1D1E40;
+    margin-top: -10px;
+  }
+
+.cs-message__content{
+    background-color: #565697 !important;
+    color: #EDE4DD !important;
+}
+
+.cs-message-input__content-editor-wrapper{
+    background-color: #565697 !important;
+    color: #EDE4DD !important;
+}
+
+.cs-message-input__content-editor{
+    background-color: #565697 !important;
+    text-align: start;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.cs-message-input__content-editor {
+    color: #EDE4DD !important; /* Change placeholder color */
+}
+
+.cs-message-input__content-editor::before {
+    color: #EDE4DD !important;
+    opacity: 0.5; /* Change placeholder color */
+}
+
+.MuiCard-root{
+    background-color: none;
+    border-radius: 20px !important;
+    border: none !important;
+    box-shadow: 3px 3.5px 8.5px 4px #ddddddb1;
+}
+
+.MuiCardMedia-root {
+    height: 500px !important;
+    width: auto !important;
+    margin: 20px 33px !important;
+    border-radius: 20px !important;
+}
+
+.MuiTypography-root{
+    text-align: start;
+    margin-left: 10px !important;
+}
+
+.MuiTypography-variantBody2{
+    text-align: center ;
+    padding: 0px 15px !important;
+}
+
+.ant-menu-title-content{
+    color: #F3E8FF !important;
+}
+
+.ant-menu-item.ant-menu-item-selected{
+    background-color: #565697 !important;
+}
+
+#root > div > div > header > nav > div.flex.lg\:hidden > button{
+    margin: 6px;
+    color:  #1D1E40;
+}
+
+#headlessui-dialog-panel-\:r17\: > div.flex.items-center.justify-end > button{
+    color:  #1D1E40;
+}
+
+#root > div > div > div.pb-16.pt-1.bg-light-purple.my-12{
+    border-radius: 49% 51% 49% 51% / 12% 12% 12% 12%;
+}
+
+#root > div > div > div.pb-16.pt-1.bg-light-purple.my-12 > div > div > ul{
+    margin-bottom: -15px !important;
+}
+
+#root > div > div > div.pb-16.pt-1.bg-light-purple.my-12 > div > div > ul > li.slick-active > button::before{
+    color: #EDE4DD !important;
+}
+#root > div > div > div.pb-16.pt-1.bg-light-purple.my-12 > div > div > ul > li.slick-active > button:hover{
+    color: #EDE4DD !important;
+}
+
+#contact-us{
+    box-shadow: none !important;
+}
+
+#root > div > section > div > div{
+    width: 700px !important;
+
+}
+
+#root > div > section > div > div > div > form > div.flex.justify-center.items-center.gap-7 > div:nth-child(1){
+    width: 100% !important;
+}
+#root > div > section > div > div > div > form > div.flex.justify-center.items-center.gap-7 > div:nth-child(2){
+    width: 100% !important;
+}
+
