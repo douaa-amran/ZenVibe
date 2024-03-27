@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# ZenVibe - Mental Health App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to ZenVibe, a mental health app designed to provide support, resources, and guidance to individuals seeking mental wellness.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Homepage:**
+  - About Us: Learn more about ZenVibe and our mission.
+  - Services: Explore the services we offer to support mental wellness.
+  - Reviews: Read reviews and testimonials from our users.
+  - Contact: Get in touch with us for inquiries or support.
 
-### `npm start`
+- **Authentication:**
+  - Sign Up: Create a new account using your email and password.
+  - Log In: Existing users can log in to access their accounts.
+  
+- **User Dashboard:**
+  - Sidebar Navigation:
+    - Profile: View and update your profile information.
+    - Articles: Read articles and resources about mental health.
+    - AI Assistant: Access our AI-powered assistant for personalized support.
+    - Log Out: Log out of your account.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend:**
+  - HTML/CSS
+  - JavaScript
+  - React.js
 
-### `npm test`
+- **Backend:**
+  - Firebase Authentication
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run ZenVibe locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository to your local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```git clone <repository-url>```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+```cd zenvibe```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```npm install```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```npm start```
 
-## Learn More
+5. Open your browser and go to `http://localhost:3000` to view the app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Homepage:**
+   - Explore different sections including About Us, Services, Reviews, and Contact.
 
-### Code Splitting
+2. **Authentication:**
+   - Sign up for a new account or log in with existing credentials.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **User Dashboard:**
+   - After authentication, access the sidebar for navigation.
+   - View and update your profile information.
+   - Read articles and resources about mental health.
+   - Interact with the AI assistant for personalized support.
+   - Log out when done.
 
-### Analyzing the Bundle Size
+## Demo Video
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Watch Demo Video here](https://vimeo.com/928155286?share=copy)
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to open an issue or submit a pull request.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
